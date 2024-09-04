@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*, ::before, ::after{
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+	font-family: "Inter", sans-serif;
+    background-color: #000000;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+	content: none;
+}
+
+table {
+    border-spacing: 0;
+}
+
+/* Header */
+
+.header {
+    padding: 28px 111px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav_link:first-child {
+    margin-left: 0px;
+}
+
+.header_nav_link:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #D6EF0E;
+    color: #fff;
+}
+
+.header_nav_link {
+    color: #B9B9B9;
+    margin-left: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.header_nav_btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #D6EF0E;
+    padding: 14.5px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid #D6EF0E;
+    padding: 16.5px 40px;
+    transition: .2s all;
+}
+
+.header_nav_btn:hover {
+    background-color: transparent;
+}
+
+/* Main Page */
+
+.main_page_content {
+    padding: 118px 111px;
+}
+
+.main_page_content_title {
+    color:#FFFFFD;
+    font-size: 64px;
+    font-weight: 500;
+    font-family: "Cinzel", serif;
+}
+
+.main_page_content_title span {
+    color: #D6EF0E;
+}
+
+.main_page_content_subtitle {
+    color: #FFFFFD;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px 40px 0px;
+}
+
+.main_page_content_info_btn:hover {
+    background-color: transparent;
+}
+
+.main_page_content_info_btn {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #D6EF0E;
+    border-radius: 8px;
+    border: 1px solid #D6EF0E;
+    padding: 16.5px 40px;
+    transition: .2s all;
+    margin-right: 5px;
+}
+
+.main_page_content_info_btn:last-child:hover {
+    border: 1px solid #D6EF0E;
+}
+
+
+.main_page_content_info_btn:last-child {
+    background-color: transparent;
+    border: 1px solid #000;
+    margin-right: 0px;
+}
+
+.main_page_content_info_stats {
+    margin-top: 72px;
+}
+
+.main_page_content_info_stats_items {
+    display: flex;
+    gap: 94px;
+}
+
+.main_page_content_info_stats_item_title::after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 92px;
+    background-color: #D6EF0E;
+    right: -50px;
+}
+
+.main_page_content_info_stats_item:last-child > .main_page_content_info_stats_item_title::after {
+    width: 0;
+}
+
+.main_page_content_info_stats_item_title {
+    font-family: "Cinzel", serif;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 500;
+    color: #FFFFFD;
+    display: flex;
+    position: relative;
+}
+
+.main_page_content_info_stats_item_title span {
+    color: #D6EF0E;
+}
+
+.main_page_content_info_stats_item_subtitle {
+    font-size: 16px;
+    color: #FFFFFD;
+    margin: 21px 0px 0px 0px;
+}
