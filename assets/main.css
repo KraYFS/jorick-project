@@ -401,3 +401,36 @@ table {
     transition: .2s all;
 }
 
+.info_page {
+    padding-top: 92px;
+}
+
+.info_page_inner {
+    padding-top: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info_page_text {
+    max-width: 430px;
+}
+
+.info_page_text_title {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: #FFFFFD;
+}
+
+.info_page_text_title span {
+    color: #D6EF0E;
+}
+
+.info_page_text_subtitle {
+    color: #FFFFFD;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px 60px 0px;
+}
