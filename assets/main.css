@@ -37,7 +37,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 	font-family: "Inter", sans-serif;
-    background-color: #000000;
+    background: radial-gradient(circle, rgba(0,112,79,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 ol, ul {
@@ -433,4 +433,38 @@ table {
     font-size: 16px;
     font-weight: 400;
     margin: 20px 0px 60px 0px;
+}
+
+.week_page {
+    padding-top: 92px;
+}
+
+.week_page_inner {
+    padding-top: 92px;
+}
+
+.week_page_text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.week_page_title {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: #FFFFFD;
+}
+
+.week_page_title span {
+    color: #D6EF0E;
+}
+
+.week_page_img {
+    margin: 64px 0px 0px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
